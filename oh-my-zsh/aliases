@@ -90,6 +90,3 @@ alias gbb='git bisect bad'
 alias gz='tar -zcvf'
 
 alias k9='kill -9'
-
-alias liono='ssh mhazley@10.56.73.2'
-alias lionomarv='ssh marvin@10.56.73.2'

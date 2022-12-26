@@ -1,3 +1,2 @@
-https://extensions.gnome.org/extension/3685/reorder-workspaces/
 https://extensions.gnome.org/extension/120/system-monitor/
 https://extensions.gnome.org/extension/1485/workspace-matrix/
