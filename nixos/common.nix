@@ -20,6 +20,7 @@ in
       nix-index
       nmap
       p7zip
+      pkg-config
       sshfs
       tmux
       wget
@@ -33,6 +34,10 @@ in
       obsidian
       spotify
       vscode
+      vscode-extensions.rust-lang.rust-analyzer
+      meld
+      vlc
+      terminator
     ];
   
   # Add the minimal required C library for most binaries
