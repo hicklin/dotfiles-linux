@@ -11,15 +11,17 @@
         enable = true;
         ohMyZsh = {
             enable = true;
-            theme = "spaceship-prompt/spaceship"; # Or your preferred theme
+            theme = "spaceship-prompt/spaceship";
             plugins = [ 
                 "git" 
                 "sudo"
                 "nix-shell" 
                 "zsh-syntax-highlighting"
                 "zsh-autosuggestions"
-            ]; # Add desired plugins here
+            ];
         };
+
+        histSize = 20000;
 
         shellInit = ''
         export ZSH_CUSTOM="$HOME/.oh-my-zsh/custom"

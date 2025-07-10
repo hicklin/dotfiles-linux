@@ -1,12 +1,12 @@
 [submodule "configs/.oh-my-zsh/custom/themes/spaceship-prompt"]
 	path = configs/.oh-my-zsh/custom/themes/spaceship-prompt
 	url = https://github.com/spaceship-prompt/spaceship-prompt.git
-[submodule "configs/.oh-my-zsh/custom/plugins/zsh-nix-shell"]
-	path = configs/.oh-my-zsh/custom/plugins/zsh-nix-shell
-	url = https://github.com/chisui/zsh-nix-shell.git
 [submodule "configs/.oh-my-zsh/custom/plugins/zsh-autosuggestions"]
 	path = configs/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions
 [submodule "configs/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting"]
 	path = configs/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 	url = https://github.com/zsh-users/zsh-syntax-highlighting
+[submodule "configs/.oh-my-zsh/custom/plugins/nix-shell"]
+	path = configs/.oh-my-zsh/custom/plugins/nix-shell
+	url = https://github.com/chisui/zsh-nix-shell.git
