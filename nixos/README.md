@@ -3,8 +3,8 @@
 Here are modular nixos configurations.
 Use these configurations by importing them into your `/etc/nixon/configurations.nix`.
 
-This repos attemps to avoid using home-manager, hence, some of the setpus may require manual steps.
-The following sections descride the different modules and the manual steps required.
+This repos attempt to avoid using home-manager, hence, some of the setups may require manual steps.
+The following sections describe the different modules and the manual steps required.
 
 ## ZSH
 
@@ -17,3 +17,15 @@ This can be done by symlinking or `echo 'source /etc/zshrc' > ~/.zshrc`.
 To avoid a hacky looking `.nix` file, I have opted to manage the oh-my-zsh themes and plugins outside the `.nix` file.
 Hence we need to symlink the `configs/.oh-my-zsh` to our home directory.
 `ln -s <path to this repo>/configs/.oh-my-zsh ~/.`
+
+## Gnome
+
+This installs the necessary packages and extension. 
+It also aspires to
+- Set a media key shortcut to launch the terminal
+- Update system shortcuts
+- Enable and configure gnome extensions
+
+However, there seems to be an issue with the system's shortcuts and gnome extensions settings not being consumed.
+Check the issus for more information about this.
+For now, run the `ubuntu/gnome_setting.sh` script.

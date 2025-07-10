@@ -32,6 +32,10 @@
                     command = "terminator";
                     binding = "<Control><Alt>t";
                 };
+                # Enable gnome extensions
+                "org/gnome/shell" = {
+                    enabled-extensions = "['focus-changer@heartmire', 'system-monitor-next@paradoxxx.zero.gmail.com', 'wsmatrix@martin.zurowietz.de']";
+                };
                 # Remove unused and conflicting shortcuts
                 "org/gnome/shell/keybindings" = {
                     shift-overview-down = "@as []";

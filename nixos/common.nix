@@ -38,6 +38,7 @@ in
       meld
       vlc
       terminator
+      tree
     ];
   
   # Add the minimal required C library for most binaries
