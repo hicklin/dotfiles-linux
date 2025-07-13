@@ -6,6 +6,8 @@
         pkgs.oh-my-zsh
     ];
 
+    environment.shells = [ pkgs.zsh ];
+
     # Enable zsh and the oh-my-zsh module
     programs.zsh = {
         enable = true;
@@ -42,6 +44,8 @@
             mkdir="mkdir -p";
 
             k9="kill -9";
+
+            devsh="devenv shell zsh";
         };
 
     };

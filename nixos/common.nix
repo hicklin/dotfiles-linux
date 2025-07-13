@@ -78,5 +78,7 @@ in
      options = "--delete-older-than 14d";
    }; 
   };
- 
+
+  users.users.hicklin.extraGroups = [ "dialout" ];
+
 }
