@@ -39,6 +39,8 @@ in
       vlc
       terminator
       tree
+      python3
+      protonvpn-gui
     ];
   
   # Add the minimal required C library for most binaries
@@ -79,6 +81,8 @@ in
    }; 
   };
 
-  users.users.hicklin.extraGroups = [ "dialout" ];
+  virtualisation.docker.enable = true;
+
+  users.users.hicklin.extraGroups = [ "dialout" "docker"];
 
 }
