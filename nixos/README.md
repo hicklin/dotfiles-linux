@@ -27,5 +27,5 @@ It also aspires to
 - Enable and configure gnome extensions
 
 However, there seems to be an issue with the system's shortcuts and gnome extensions settings not being consumed.
-Check the issus for more information about this.
+Check the issues for more information about this.
 For now, run the `ubuntu/gnome_setting.sh` script.

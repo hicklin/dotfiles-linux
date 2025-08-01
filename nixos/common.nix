@@ -41,6 +41,7 @@ in
       tree
       python3
       protonvpn-gui
+      pciutils
     ];
   
   # Add the minimal required C library for most binaries
