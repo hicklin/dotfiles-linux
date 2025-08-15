@@ -42,8 +42,13 @@ in
       python3
       protonvpn-gui
       pciutils
+      typst
     ];
   
+  fonts.packages = with pkgs; [
+    font-awesome
+  ];
+
   # Add the minimal required C library for most binaries
   # https://nix.dev/guides/faq#how-to-run-non-nix-executables
   programs.nix-ld.enable = true;
