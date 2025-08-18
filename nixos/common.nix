@@ -11,38 +11,40 @@ in
   environment.systemPackages = with pkgs; [
       bat
       bottom
+      brave
       curl
       devenv
+      gimp3
       git
-      htop
       gtop
+      htop
+      inkscape
+      kitty
       lshw
+      meld
       nix-index
       nmap
-      p7zip
-      pkg-config
-      sshfs
-      tmux
-      wget
-      which
-      zellij
-      zip
-      brave
-      signal-desktop
-      gimp3
-      inkscape
       obsidian
+      p7zip
+      pciutils
+      pkg-config
+      protonvpn-gui
+      python3
+      signal-desktop
       spotify
+      sshfs
+      terminator
+      tmux
+      tree
+      typst
+      vlc
       vscode
       vscode-extensions.rust-lang.rust-analyzer
-      meld
-      vlc
-      terminator
-      tree
-      python3
-      protonvpn-gui
-      pciutils
-      typst
+      wget
+      which
+      yazi
+      zellij
+      zip
     ];
   
   fonts.packages = with pkgs; [
@@ -89,6 +91,5 @@ in
 
   virtualisation.docker.enable = true;
 
-  users.users.hicklin.extraGroups = [ "dialout" "docker"];
-
+  users.users.hicklin.extraGroups = [ "dialout" "docker"];  
 }

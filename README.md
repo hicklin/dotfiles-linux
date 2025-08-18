@@ -9,3 +9,7 @@ There are scripts to install these.
 ### Git
 
 Execute `ubuntu/git.sh` to symlink the git files to your home dir.
+
+### Kitty
+
+symlink the `kitty` dir to `~/.config/kitty`. `ln -s <path to repo>/configs/kitty ~/.config/kitty`.

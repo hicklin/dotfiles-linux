@@ -1,6 +1,19 @@
 { config, pkgs, ... }:
 
 {
+
+  # # --- Use for no graphics
+
+  # boot.blacklistedKernelModules = [ "nouveau" ];
+
+  # # Use integrated graphics only (if available)
+  # services.xserver = {
+  #   enable = true;
+  # };
+  
+  # # ---
+  
+  ## Use below with a working GPU?
   hardware.firmware = with pkgs; [ linux-firmware ];
 
   # Explicitly use nouveau

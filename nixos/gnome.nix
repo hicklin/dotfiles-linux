@@ -29,7 +29,7 @@
                 };
                 "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0" = {
                     name = "Terminal";
-                    command = "terminator";
+                    command = "kitty";
                     binding = "<Control><Alt>t";
                 };
                 # Enable gnome extensions
